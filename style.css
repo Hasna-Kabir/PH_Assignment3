@@ -1,15 +1,18 @@
-.bg{
+body {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg {
     filter: brightness(30%);
 }
+
 .c-body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
 }
+
 .checked {
     color: orange;
-  }
-.unchecked{
-    color: white;
-    border: orange;
 }
