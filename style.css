@@ -6,3 +6,10 @@
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
 }
+.checked {
+    color: orange;
+  }
+.unchecked{
+    color: white;
+    border: orange;
+}
